@@ -1,3 +1,16 @@
+/**Объяви функцию makeTransaction, которая ожидает два параметра,
+ * значения которых будут задаваться при ее вызове:
+ * - quantity- первый параметр, число, содержащее
+ * количество заказанных дроидов
+ * - pricePerDroid - второй параметр, число,
+ * содержащее стоимость одного дроида Дополни код функции так,
+ * чтобы она возвращала строку с сообщением о покупке
+ * ремонтных дроидов:
+ * "You ordered <quantity> droids worth <totalPrice> credits!",
+ * где: - <quantity> - это количество заказанных дроидов
+ * - <totalPrice> - это общая стоимость заказа,
+ * то есть стоимость всех заказанных дроидов  */
+
 function makeTransaction(quantity, pricePerDroid) {
   return `"You ordered ${quantity} droids worth ${
     quantity * pricePerDroid
